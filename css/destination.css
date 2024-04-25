@@ -1,0 +1,183 @@
+body{
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/004/928/975/small_2x/travel-around-the-world-landmark-design-famous-landmarks-around-the-world-elements-with-travel-vacation-text-in-blue-background-illustration-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: #ffffff;
+    /* border: 2px solid black; */
+    padding: 2px 5px;
+    /* border-radius: 6px; */
+    font-size: 20px;
+}
+
+.logo :hover {
+    color: #000000;
+}
+
+/* .heading {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+
+.heading h1 {
+    font-size: 40px;
+    animation: slide 5s ease-in-out 2s infinite alternate-reverse;
+}
+
+@keyframes slide {
+    0%{
+        width: 0%;
+    }
+    25%{
+        width: 25%;
+    }
+    50%{
+        width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+    }
+
+}
+
+.heading a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 45px;
+    padding: 14px 50px;
+    background-color: #fff;
+}
+
+.heading a:hover {
+    letter-spacing: 2px;
+    transition: 0.4s;
+} */
+
+.tour {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.places {
+    display: inline;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.places h2 {
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: #10a3f8;
+}
+
+.places a {
+    text-decoration: none;
+    color: rgb(186, 194, 193);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 9px;
+    padding: 12px 24px;
+    background-color: #0548ff;
+}
+
+.places a:hover {
+    background-color: #a75aff;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    transition: 0.6s;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    /* background-color: #fee; */
+    backdrop-filter: blur(122px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.footer a:hover {
+    border-bottom: 2px solid black;
+    transition: 0.3s;
+}
+
+/* responsive */
+@media screen and (max-width: 1312px) {
+    .logo {
+        border: none;
+        font-size: 15px;
+    }
+    .body {
+        flex-direction: column;
+        height: 250vh;
+    }
+    .tour {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+    }
+    .places {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .places h2 {
+        width: 280px;
+    }
+    .places a {
+        color: white;
+        width: 251px;
+        position: absolute;
+        background: none;
+        backdrop-filter: blur(20px);
+    }
+    .heading {
+        width: 40%;
+    }
+    .heading a {
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 13vh;
+    }
+    .footer a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+}

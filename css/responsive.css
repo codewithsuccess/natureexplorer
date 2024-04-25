@@ -1,0 +1,81 @@
+@media screen and (max-width: 1312px) {
+    .logo {
+        border: none;
+    }
+    .body {
+        flex-direction: column;
+        height: 250vh;
+    }
+    .tour {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+    }
+    .places {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .places h2 {
+        width: 300px;
+    }
+    .places a {
+        color: white;
+        width: 300px;
+        position: absolute;
+        background: none;
+        backdrop-filter: blur(20px);
+    }
+    .heading {
+        width: 40%;
+    }
+    .heading a {
+        display: flex;
+        justify-content: center;
+    }
+    .footer {
+        height: 12vh;
+    }
+    .footer a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+    }
+}
+
+
+/*Responsive navbar*/
+@media screen and (max-width: 1142px) {
+    .navbar .menu {
+        display: none;
+    }
+    .navbar .signup {
+        display: none;
+    }
+    .navbar .toggle_btn {
+        display: block;
+    }
+    .dropdown_menu {
+        display: block;
+        padding-right: 5px;
+    }
+    .dropdown_menu li {
+        padding: 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dropdown_menu li a {
+        text-decoration: none;
+        color: white;
+    }
+    .dropdown_menu {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border-radius: 8px;
+    }
+    .dropdown_menu.open {
+        height: 340px;
+    }
+}
+
